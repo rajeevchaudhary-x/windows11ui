@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-vid video{
+  
+   height: 125%;
+   width: 100%;
+   margin-bottom: -8px;
+   position: fixed;
+   bottom: 0;
+   right: 15px;
+
+}
+.back-vid{
+    margin-left: 10rem;
+}
+.taskbr{
+    position: absolute;
+    background-color: #f3f3f3;
+    height: 45px;
+    bottom: 0;
+    filter: brightness(150%);
+    z-index: 4;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden; /* Hide scrollbars */
+
+}
+.icons{
+    margin-left: 37rem;
+    background-color: #f3f3f3;
+
+  
+}
+.arrow{
+    font-size: 17px;
+    cursor: pointer;
+  
+}
+.net{
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.speaker{
+    font-size: 17px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.menu{
+    height: 553px;
+    width: 537px;
+    z-index: 4746476;
+     /* bottom: 44px; */
+    bottom: -553px;
+    /* display: none; */
+    left: 70vh;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+}
+.wifi{
+    /* bottom: 0px; */
+    bottom: -553px;
+    /* display: none; */
+    left: 150vh;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+   
+}
+.apps img{
+    height: 40px;
+    width: 40px;
+    margin-left: 13px;
+    margin-top: 13px;
+    
+}
+.apps1 img{
+    height: 41px;
+    width: 73px;
+    margin-left: 1px;
+    margin-top: 13px;
+    
+}
+.apps2 img{
+    height: 42px;
+    width: 44px;
+    margin-left: 14px;
+    margin-top: 13px;
+}
+.apps3 img{
+    height: 37px;
+    width: 36px;
+    margin-left: 17px;
+    margin-top: 13px;
+}
